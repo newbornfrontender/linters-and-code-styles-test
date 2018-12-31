@@ -12,7 +12,7 @@
     "stylelint:f": "stylelint --fix *.css",
     "eslint:c": "eslint --print-config . | eslint-config-prettier-check",
     "eslint:f": "eslint --fix *.js",
-    "prettier:w": "prettier --write *.{html,js,json}"
+    "prettier:w": "prettier --write *.{html,js,json,md}"
   },
   "devDependencies": {
     "eslint": "^5.11.1",
