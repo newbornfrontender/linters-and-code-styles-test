@@ -1,0 +1,8 @@
+{
+  "name": "linters-and-code-styles-test",
+  "version": "1.0.0",
+  "description": "Тестовый репозиторий для проверки линтеров",
+  "repository": "https://github.com/newbornfrontender/linters-and-code-styles-test.git",
+  "author": "Infant Frontender <newbornfrontender@gmail.com>",
+  "license": "MIT"
+}
