@@ -1,0 +1,11 @@
+.card {
+  display: flex;
+
+  & .title {
+    color: green;
+  }
+}
+
+.wrapper {
+  display: grid;
+}
