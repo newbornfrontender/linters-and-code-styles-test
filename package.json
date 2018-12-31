@@ -4,5 +4,14 @@
   "description": "Тестовый репозиторий для проверки линтеров",
   "repository": "https://github.com/newbornfrontender/linters-and-code-styles-test.git",
   "author": "Infant Frontender <newbornfrontender@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "stylelint": "stylelint *.html",
+    "htmllint": "node htmllint.js",
+    "stylelint:c": "stylelint-config-prettier-check",
+    "stylelint:f": "stylelint --fix *.css",
+    "eslint:c": "eslint --print-config . | eslint-config-prettier-check",
+    "eslint:f": "eslint --fix *.js",
+    "prettier:w": "prettier --write *.{html,js,json}"
+  }
 }
